@@ -1,0 +1,42 @@
+/* Style document for Huey Lewis and the News bandpage, created for Coder Academy Homework Task*/
+/* Author: Damon Johnson */
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #fefef6;
+}
+
+body {
+  font-family: 'Didact Gothic';
+}
+
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+.heading {
+    font-family: "Anton", sans-serif;
+}
+
+#bandlogo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#mainphoto {
+    top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.sidebar {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10;
+}
+~`
