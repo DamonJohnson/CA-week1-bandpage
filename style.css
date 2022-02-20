@@ -1,42 +1,117 @@
 /* Style document for Huey Lewis and the News bandpage, created for Coder Academy Homework Task*/
 /* Author: Damon Johnson */
-html {
-  margin: 0;
-  padding: 0;
-  background-color: #fefef6;
-}
 
-body {
+.home-text {
   font-family: 'Didact Gothic';
+  background-color: #fefffb;
+  text-justify: distribute-all-lines;
+  margin-top: 0px;
 }
 
+.disco-text {
+  font-family: 'Didact Gothic';
+  background-color: #fefffb;
+  text-decoration: solid;
+  text-justify: distribute-all-lines;
+  margin-left: 425px;
+  margin-right: 463px;
+  margin-top: -10px;
+  margin-bot: -10px;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 300px;
+}
+
+.bio-text {
+  font-family: 'Didact Gothic';
+  background-color: #fefffb;
+  text-decoration: solid;
+  text-justify: distribute-all-lines;
+  margin-left: 425px;
+  margin-right: 463px;
+  margin-top: -10px;
+  margin-bot: -10px;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 300px;
+
+}
+
+.Profile {
+  font-family: 'Didact Gothic';
+  text-align: justify;
+  background-color: #fefffb;
+  text-align:center;
+  width: 701px;
+  position: relative;
+  padding-left:6.3%;
+  padding-top: 1%;
+  padding-right: 6.4%;
+  padding-bottom: 4%;
+  border: #fefffb;
+  border-width: 3px;
+  margin-left: 25.1%;
+  margin-top: -4px;
+}
+
+.sub-body {
+    background-image: url(images/background.jpg);
+}
+
+nav {
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: "Anton", sans-serif;
+    width: 500px;
+    }
+
+a {
+    line-height: 1;
+    font-family: "Anton", sans-serif;
+    display: inline-block;
+    text-decoration:none;
+    padding-inline: 10px;
+    color: #ee5c40;
+    font-size: larger;
+}
 
 h1 {
   font-family: "Anton", sans-serif;
 }
 
+
 .heading {
     font-family: "Anton", sans-serif;
 }
 
-#bandlogo {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
 
 #mainphoto {
-    top: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
 }
 
-.sidebar {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 10;
+#logo {
+   text-align: center;
+    height: fit-content;
+    position:static;
+    margin-top: -40px;
+    margin-left: 425px;
+    padding-top: 2%;
+    background-color: white;
+    align-item: center;
+    vertical-align: center;
 }
-~`
+
+
+footer {
+  position: relative;
+  margin-top: 30px;
+  font-family: 'Didact Gothic';
+  background-color: #fefffb;
+  text-align: center;
+  border: #fefffb;
+
+}
